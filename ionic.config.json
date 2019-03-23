@@ -1,0 +1,7 @@
+{
+  "name": "PanicButton",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
