@@ -5,6 +5,9 @@ import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
+import { SMS } from '@ionic-native/sms/ngx'
+import { AndroidPermissions } from '@ionic-native/android-permissions/ngx';
+import { Geolocation } from '@ionic-native/geolocation/ngx';
 
 @NgModule({
   imports: [
@@ -18,6 +21,7 @@ import { HomePage } from './home.page';
       }
     ])
   ],
+  providers: [SMS, AndroidPermissions, Geolocation],
   declarations: [HomePage]
 })
 export class HomePageModule {}
