@@ -1,5 +1,7 @@
 # Panic-Button-App
 
+**Please read the [LICENSE][1] before using it.**
+
 Versions:
 
 - Ionic: 4.1.2
@@ -11,3 +13,5 @@ Plugins (all Ionic Native except when noted):
 - AndroidPermissions
 - Geolocation
 - SQLite (unused)
+
+[1]:https://github.com/jvillarreal7/Panic-Button/blob/master/LICENSE
