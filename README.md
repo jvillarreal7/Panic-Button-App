@@ -14,4 +14,4 @@ Plugins (all Ionic Native except when noted):
 - Geolocation
 - SQLite (unused)
 
-[1]:https://github.com/jvillarreal7/Panic-Button/blob/master/LICENSE
+[1]:https://github.com/jvillarreal7/Panic-Button-App/blob/master/LICENSE
