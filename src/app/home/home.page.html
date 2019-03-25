@@ -4,13 +4,23 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      Home
+      Inicio
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-  <ion-button (click)="sendSMS()">
+  <!-- <ion-button (click)="sendSMS()">
     SMS
-</ion-button>
+  </ion-button> -->
+  <!-- <ion-fab vertical="center" horizontal="center" slot="fixed">
+      <ion-fab-button color="danger" (click)="sendSMS()">
+        <ion-icon name="warning"></ion-icon>
+      </ion-fab-button>
+    </ion-fab> -->
+  <div class="center-button">
+    <ion-button size="large" expand="block" color="danger" (click)="sendSMS()">
+      <ion-icon name="warning"></ion-icon> Enviar alerta
+    </ion-button>
+  </div>
 </ion-content>

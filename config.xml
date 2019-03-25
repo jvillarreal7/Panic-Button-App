@@ -85,6 +85,7 @@
     <plugin name="cordova-plugin-android-permissions" spec="1.0.0" />
     <plugin name="com.jsmobile.plugins.sms" spec="https://github.com/hazems/cordova-sms-plugin.git" />
     <plugin name="cordova-plugin-geolocation" spec="4.0.1" />
+    <plugin name="cordova-sqlite-storage" spec="3.2.0" />
     <engine name="android" spec="7.1.4" />
     <engine name="browser" spec="5.0.4" />
 </widget>

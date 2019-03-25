@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { ListPage } from './list.page';
 
@@ -16,7 +17,8 @@ import { ListPage } from './list.page';
         path: '',
         component: ListPage
       }
-    ])
+    ]),
+    ReactiveFormsModule
   ],
   declarations: [ListPage]
 })

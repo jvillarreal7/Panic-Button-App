@@ -8,6 +8,8 @@ import { HomePage } from './home.page';
 import { SMS } from '@ionic-native/sms/ngx'
 import { AndroidPermissions } from '@ionic-native/android-permissions/ngx';
 import { Geolocation } from '@ionic-native/geolocation/ngx';
+import { SQLite, SQLiteObject } from '@ionic-native/sqlite/ngx';
+import { LoadingController } from '@ionic/angular';
 
 @NgModule({
   imports: [
@@ -21,7 +23,7 @@ import { Geolocation } from '@ionic-native/geolocation/ngx';
       }
     ])
   ],
-  providers: [SMS, AndroidPermissions, Geolocation],
+  providers: [SMS, AndroidPermissions, Geolocation, SQLite],
   declarations: [HomePage]
 })
 export class HomePageModule {}
